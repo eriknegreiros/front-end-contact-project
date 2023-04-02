@@ -53,6 +53,7 @@ export const LoginDiv = styled.div`
     font-size: 1rem;
   }
 
+
   .divBtnSubmit {
     display: flex;
     flex-direction: column;
@@ -85,6 +86,14 @@ export const LoginDiv = styled.div`
     background-color: black;
     transition: 1s;
   }
+
+ .aWhite{
+  background-color: white;
+  width:100px;
+  text-align:center;
+  font-family: var(--font);
+  border-radius:20px;
+ }
 
   @media (min-width: 768px) {
     input {

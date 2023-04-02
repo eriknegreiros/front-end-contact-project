@@ -30,7 +30,7 @@ const LoginComponent = () => {
         <div className="divBtnSubmit">
           <button type="submit">Entrar</button>
           <p>Ou</p>
-          <button >{<Link to={"/register"}>Cadastre-se</Link>}</button>
+          <a className="aWhite">{<Link to={"/register"}>Cadastre-se</Link>}</a>
         </div>
       </form>
     </LoginDiv>

@@ -34,7 +34,7 @@ const RegisterComponent = () => {
         <div className="divBtnSubmit">
           <button type="submit">Cadastrar</button>
           <p>Ou</p>
-          <button>{<Link to={"/login"}>Login</Link>}</button>
+          <a className="aWhite">{<Link to={"/login"}>Login</Link>}</a>
         </div>
       </form>
     </RegisterDiv>

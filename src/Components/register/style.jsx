@@ -81,6 +81,15 @@ export const RegisterDiv = styled.div`
     transition: 1s;
   }
 
+  .aWhite{
+  background-color: white;
+  width:100px;
+  text-align:center;
+  font-family: var(--font);
+  border-radius:20px;
+  height:auto;
+ }
+
   @media (min-width: 768px) {
     input {
       width: 400px;

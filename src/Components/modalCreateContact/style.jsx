@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const ModalDiv = styled.div`
+
+
   .divSearch {
     display: flex;
     flex-direction: column;

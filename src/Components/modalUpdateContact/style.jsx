@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FormModal = styled.div`
   position: fixed; /* Stay in place */
   z-index: 999; /* Sit on top */
-
+  width:auto;
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -12,19 +12,25 @@ export const FormModal = styled.div`
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.8);
 
+  display:flex;
+  align-items:center;
+  justify-content: center;
+
   .formUpdate {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30vh;
-    gap: 10px;
+    gap: 20px;
+    background-color:white;
+    width:auto;
+    padding:20px;
   }
 
   h2 {
     font-family: var(--font);
     font-size: 1.3rem;
-    color: var(--white);
+    color: var(--black);
   }
 
   input {

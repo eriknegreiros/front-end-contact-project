@@ -53,7 +53,6 @@ export const LoginDiv = styled.div`
     font-size: 1rem;
   }
 
-
   .divBtnSubmit {
     display: flex;
     flex-direction: column;
@@ -87,13 +86,21 @@ export const LoginDiv = styled.div`
     transition: 1s;
   }
 
- .aWhite{
-  background-color: white;
-  width:100px;
-  text-align:center;
-  font-family: var(--font);
-  border-radius:20px;
- }
+  .aWhite {
+    background-color: white;
+    width: 50vw;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--font);
+    border-radius: 20px;
+    color: var(--black);
+    font-weight: 600;
+    font-size: 14px;
+
+  }
 
   @media (min-width: 768px) {
     input {
@@ -101,6 +108,10 @@ export const LoginDiv = styled.div`
     }
 
     button {
+      width: 200px;
+    }
+
+    .aWhite{
       width: 200px;
     }
   }

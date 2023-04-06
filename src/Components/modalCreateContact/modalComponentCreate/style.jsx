@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const ModalCreate = styled.div`
+
   form {
     display: flex;
     align-items: center;
@@ -8,6 +9,8 @@ export const ModalCreate = styled.div`
     flex-direction: column;
     height: 100vh;
     gap: 30px;
+    
+    
   }
 
   .divClose {
@@ -15,6 +18,8 @@ export const ModalCreate = styled.div`
     justify-content: center;
     align-items: center;
     gap: 50px;
+
+    
   }
 
   span {
